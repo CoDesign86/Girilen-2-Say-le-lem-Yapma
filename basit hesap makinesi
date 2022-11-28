@@ -1,0 +1,16 @@
+sayi1 = int(input("ilk sayınızı giriniz : "))
+sayi2 = int(input("ikinci sayıyı giriniz"))
+
+secenekler = int(input("1-topla \n 2-cıkar \n 3-bol \n 4-carp \n "))
+
+  if secenekler == 1:
+    print(sayi1+sayi2)
+  elif secenekler == 2:
+    print (sayi1-sayi2)
+  elif secenekler == 3:
+    print (sayi1/sayi2)
+  elif secenekler == 4:
+    print (sayi1*sayi2)
+    
+    else
+    print ("geçerli koşul giriniz !")
